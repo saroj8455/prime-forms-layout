@@ -29,3 +29,17 @@ git remote add origin https://github.com/saroj8455/prime-forms-layout.git
 git branch -M master
 git push -u origin master
 ```
+
+## Fix Forms layout
+
+```html
+<div class="p-fluid formgrid grid m-4">
+  <div class="p-field col-12 md:col-4">
+    <span class="p-float-label">
+      <input type="text" id="inputtext" pInputText [(ngModel)]="value1" />
+      <label for="inputtext">InputText</label>
+    </span>
+  </div>
+  <!-- ..... Todo All Forms Field -->
+</div>
+```
